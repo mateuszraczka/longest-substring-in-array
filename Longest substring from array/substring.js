@@ -17,7 +17,7 @@ var MakeSortedArrayFromNodes = function(nodes)
     Object.keys(nodes).forEach(function(key) {
         array.push(nodes[key])
     })
-    array.sort((a,b) => b.length-a.length)
+    array.sort((a,b) => a.length-b.length)
     return array
 }
 
